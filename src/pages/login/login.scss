@@ -1,0 +1,75 @@
+.login{
+    height: 100vh;
+    background-color: #E7FEFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 50%;
+        display: flex;
+        background-color: #99FFEB;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+
+        .left{
+            flex:1;
+            background: linear-gradient(rgb(173, 216, 230,0.5),rgba(173,216,230,0.5)), url(https://media.istockphoto.com/id/1252924066/photo/poor-indian-children-asking-for-help.jpg?s=612x612&w=0&k=20&c=iCfnyEJBALdrB8D_EZ0CI1lDgDHMZ8yCbwua6eNyEQ8=) center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+         h1{
+           fontsize: 100px;
+           lineheight: 100px;
+         }
+          p{}
+          span{
+             font-size: 14px;
+          }
+          button{
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background-color: white;
+            color: rebeccapurple;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+        .right{
+            flex:1;
+            padding:50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+          
+          h1{
+            color: #555;
+          }
+          form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            input{
+                border: none;
+                border-bottom: 1px solid lightgrey;
+                padding: 20px 10px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: #00E9B7	;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+          }
+        }
+    }
+}
