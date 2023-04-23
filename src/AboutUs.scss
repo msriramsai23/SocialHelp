@@ -1,0 +1,44 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import "grid/grid12";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0px; 
+	padding: 0px; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.our-story{
+    max-width: 100%;
+    width: fit-content;
+      margin: 0 auto;
+      font-family: 'Montserrat', sans-serif;
+      ul{
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    li{
+      padding:5px;
+    }
+  }
+
+  .section-headings{
+    text-align: center;
+    margin:3% 0 0 0;
+    font-family: 'Montserrat', sans-serif;    font-size:45px;
+    &:after{
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      padding-top: 15px;
+      border-bottom: 2px solid #F97F51;
+    }
+  }
+

@@ -12,9 +12,14 @@ import Messages from "../../assets/10.png"
 import Tutorials from "../../assets/11.png"
 import Courses from "../../assets/12.png"
 import Fund from "../../assets/13.png"
+import AboutUsIcon from "../../assets/about-us.png"
+import Donateicon from "../../assets/donate(1).png"
+import { Link } from 'react-router-dom';
 
 
-
+<Link to="/register">
+<button>Register</button>
+</Link>
 
 const LeftBar = () => {
     return (
@@ -25,14 +30,21 @@ const LeftBar = () => {
                         <img src="https://blog.ipleaders.in/wp-content/uploads/2021/11/Child-begging-1.jpg" alt="" />
                         <span>blah blah</span>
                     </div>
+                   
                     <div className="item">
-                        <img src={Friends} alt="" />
-                        <span>Friends</span>
+                    <Link to="/aboutus">
+                        <img src={AboutUsIcon} alt="" />
+                    </Link>
+                        <span>AboutUs</span>
                     </div>
+                   
                     <div className="item">
-                        <img src={Groups} alt="" />
-                        <span>Groups</span>
+                    <Link to="/donationpage">
+                        <img src={Donateicon} alt="" />
+                    </Link>
+                        <span>Fundraiser</span>
                     </div>
+                   
                     <div className="item">
                         <img src={Market} alt="" />
                         <span>Marketplace</span>
@@ -55,7 +67,7 @@ const LeftBar = () => {
                         <span>Events</span>
                     </div>
                     <div className="item">
-                        <img src={Gaming} alt="" />
+                        <img src={Tutorials} alt="" />
                         <span>TRAIL</span>
                     </div>
                     <div className="item">
@@ -72,7 +84,7 @@ const LeftBar = () => {
                     </div>
                 </div>
                 <hr />
-                <div className="menu">
+               <div className="menu">
                     <span>Others</span>
                     <div className="item">
                         <img src={Fund} alt="" />
@@ -88,6 +100,8 @@ const LeftBar = () => {
                     </div>
                 </div>
 
+                
+              
                 </div>
         </div>
     );

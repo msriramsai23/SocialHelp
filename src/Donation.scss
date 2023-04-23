@@ -1,0 +1,499 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import "grid/grid12";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0px; 
+	padding: 0px; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-headings{
+  text-align: center;
+  margin:3% 0 0 0;
+  font-family: 'Montserrat', sans-serif;    font-size:45px;
+  &:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 15px;
+    border-bottom: 2px solid #F97F51;
+  }
+}
+
+.under-heading-paras{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:1px;
+  text-align: center;
+  padding: 10px;
+}
+
+.section-donation{
+  background-color: #f4f4f4;
+  align-items: center;
+  .container-fluid{
+    max-width: 80%;
+    padding-bottom: 20px;
+  }
+
+  .donation-box {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+    font-family: 'Montserrat', sans-serif;
+    img{
+      background: no-repeat top center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 250px;
+      width: 100%;
+    }
+
+    .about-text{
+      line-height: 1.5;
+    }
+
+    button{
+        background-color:  #F97F51;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        width: 100%;
+        margin-top: 1em;
+        padding: 8px 0px;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        margin-bottom: 0.25em;
+  
+        &:hover {
+          color:  #F97F51;
+          background-color: #fff;
+          border: 2px solid  #F97F51;
+        }
+    }
+}
+
+.payment-page{
+  padding-top: 50px;
+  max-width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.donation-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.donation-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.donation-box div:last-child {
+  text-align: center;
+  border: 0;
+}
+.plan-price {
+  font-size: 160%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color:  #F97F51;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.donation-box ul {
+  list-style: none;
+}
+
+.donation-box ul li {
+  padding: 5px 0;
+}
+}
+
+.merch-store{
+ 
+  .container-fluid{
+    max-width: 90%;
+  }
+
+  a{
+    img{
+      background: no-repeat top center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     margin: 20px 20px 20px 20px;
+     -webkit-transform: scale(1.03);
+     -ms-transform: scale(1.03);
+     transform: scale(1.03);
+     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+     transition: transform 0.5s, opacity 0.5s;
+     &:hover{
+       opacity: 1;
+       -webkit-transform: scale(1.15);
+       -ms-transform: scale(1.15);
+       transform: scale(1.15);
+     }
+  }
+  }
+}
+
+.products{
+  .model{
+    height: 100vh;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    img{
+    width: 100%;
+    max-width: 500px;
+   }
+  }
+  .insider{
+    margin-top: 20px;
+    max-width: 490px;
+  }
+  .info{
+   float: left;
+   display: inline-block;
+   h5{
+    background: #F97F51;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 8px;
+    font-weight: 700;
+    color: white;
+  }
+  h1{
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.3;
+    margin: 24px 0;
+  }
+  p{
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+ }
+
+ .size{
+    margin-bottom: 30px;
+  }
+  .title{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+  }
+
+  .circle{
+    height: 30px;
+    width: 30px;
+    padding: 10px 0;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    &:hover {
+      color:  #F97F51;
+      border: 1px solid  #F97F51;
+  }
+  }
+
+  .semi-circle{
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    &:hover {
+      color:  #F97F51;
+      border: 1px solid  #F97F51;
+  }
+  }
+
+  .red-hollow-btn{
+    border: 1px solid #F97F51;
+    display: inline-block;
+    padding: 20px;
+    //color: #F97F51;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    .price{
+      font-size: 24px;
+      font-family: 'Montserrat', sans-serif;
+      margin-right: 10px;
+      color: #F97F51;
+    }
+    &:hover {
+        color:  #F97F51;
+        border: 1px solid  #F97F51;
+    }
+  }
+
+  .lightgrey-btn{
+    background: #f5f5f7;
+    border: 1px solid  #fff;
+    display: inline-block;
+    padding: 30px;
+    color: #1b1b1b;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    min-height: 30px;
+    position: relative;
+
+    &:hover {
+      color:  #F97F51;
+      border: 1px solid  #fff;
+  }
+  }
+}
+
+.our-story{
+  max-width: 100%;
+  width: fit-content;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    ul{
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  li{
+    padding:5px;
+  }
+}
+
+/* FORM-CSS */
+
+  .login-hero-img {
+   // background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("./login-collage.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  .wrapper{
+  margin-top: 1%;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+  h1{
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  h2{
+  font-size: medium;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding: 5px;
+  padding-bottom: 10px;
+
+  }
+  }
+
+  .form-wrapper{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 1%;
+  }
+
+  form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  label{
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+  }
+
+  input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+
+    &::placeholder{
+      font-size: 1.2em;
+      font-weight: lighter;
+      color: #999;
+    }
+  }
+
+  input.error{
+    border: 1px solid red;
+  }
+
+  .errorMessage{
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+
+  .firstName{
+    margin-right: 1%;
+  }
+
+  .lastName{
+    margin-left: 1%;
+  }
+
+  .firstName, 
+  .lastName, 
+  .email, 
+  .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .firstName,
+  .lastName{
+    width: 49%;
+  }
+
+  .email,
+  .password{
+    width: 100%;
+  }
+
+  .message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .createAccount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+      background-color:  #F97F51;
+      color: #fff;
+      border: 2px solid #fff;
+      width: 100%;
+      margin-top: 1em;
+      padding: 8px 0px;
+      font-size: 1em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      margin-bottom: 0.25em;
+
+      &:hover {
+        color:  #F97F51;
+        background-color: #fff;
+        border: 2px solid  #F97F51;
+      }
+
+      small {
+        color: #999;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .form-contactUs{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 61px;
+    padding-bottom: 333px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 1%;
+
+    
+  }
+
+  .section-cart{
+      align-items: center;
+      padding-bottom: 520px;
+    
+      .container-fluid{
+        max-width: 80%;
+        align-items: center;
+        padding-bottom:5px;
+        padding-top:5px ;
+        
+      }
+      .cart-items{
+        padding: 10px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        margin-left: 5%;
+        box-shadow: 0 2px 2px #efefef;
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+  }
+  
+ 

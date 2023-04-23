@@ -11,24 +11,27 @@ import {
 import { Children } from "react";
 import Navbar from "./components/navbar/Navbar";
 import LeftBar from "./components/leftbar/LeftBar"
-//import RightBar from "./components/rightbar/RightBar";
+import RightBar from "./components/rightbar/RIghtBar";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
+import AboutUs from "./AboutUs";
+import DonationPage from "./DonatePage";
+import './style.scss';
+
 
 function App() {
   const currentUser=true;
 
   const Layout =()=>{
     return (
-      <div>
+      <div className="theme-light">
         <Navbar />
         <div style={{display:"flex"}}>
           <LeftBar />
           <div style={{flex:6}}>
           <Outlet />
-          </div>
-          
-        
+          </div>   
+        <RightBar/>
         </div>
 
       </div>
@@ -68,6 +71,14 @@ function App() {
     {
        path:"/register",
        element: <Register/>,
+    },
+    {
+      path:"/aboutus",
+      element:<AboutUs/>   
+    },
+    {
+      path:"/donationpage",
+      element:<DonationPage/>
     },
   ]);
 
