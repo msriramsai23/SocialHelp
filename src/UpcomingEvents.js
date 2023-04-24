@@ -27,15 +27,15 @@ class UpcomingEvents extends React.Component{
           <div className="funraiser-events">
             <div className="col-sm-6 col-md-3 col-lg-3">
               <div>
-                <img src="https://www.thebetterindia.com/wp-content/uploads/2018/04/orphan-reservation-Maharashtra.jpg" />
+                <img src="https://afamilyforeveryorphan.org/wp-content/uploads/2018/12/How-Does-AFFEO-help-Orphans-in-India-Photo-e1544559532305.jpg" />
                 <h3>Help the orphans</h3>
                 <p>4th March<br />5pm<br />Estella (Juhu)</p>
               </div>
             </div>
             <div className="col-sm-6 col-md-3 col-lg-3">
               <div>
-                <img src="https://s2.reutersmedia.net/resources/r/?m=02&d=20190630&t=2&i=1403161250&w=1200&r=LYNXNPEF5T10E" />
-                <h3>Support LGBTQ+</h3>
+                <img src="https://b.zmtcdn.com/feeding-india/176f09742b82b6258cc4a8b5763de2311585292482.png" />
+                <h3>Feed India</h3>
                 <p>10th March<br />6pm<br />Time and Again (Lokhandwala)</p>
               </div>
             </div>
