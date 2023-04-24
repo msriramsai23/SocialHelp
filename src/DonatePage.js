@@ -89,7 +89,7 @@ class DonationPage extends React.Component{
           <div className="col-sm-6 col-md-4 col-lg-4 ">
             <div className="donation-box js--wp-4">
                 <div>
-                  <img src="https://content.jdmagicbox.com/comp/delhi/n5/011pxx11.xx11.170118234007.n8n5/catalogue/sambhav-foundation-delhi-0knkp73xos.jpg" />
+                  <img src="https://cfstatic.give.do/83884df2-e694-422b-98f0-470a03f3e6bb.jpg" />
                     <p className="plan-price">Sambhav Foundation</p>
                     <p className="plan-price-meal">To Enable Dignity and Livelihood Of The Disadvantaged And The Differently Abled</p>
                 </div>
@@ -105,13 +105,13 @@ class DonationPage extends React.Component{
           <div className="col-sm-6 col-md-4 col-lg-4 ">
             <div className="donation-box js--wp-4">
                 <div>
-                    <img src="https://mlfpr3cl8hen.i.optimole.com/w:570/h:385/q:auto/https://acceptindia.org/wp-content/uploads/2019/09/5-Children-0.jpg" />
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/6a93c6127351609.Y3JvcCwzMjU4LDI1NDgsMTEyLDY0.jpg" />
                     <p className="plan-price">Accept Society</p>
                     <p className="plan-price-meal">A  non profit care home registered under Karnataka Societies Act No 776/99-2000.</p>
                 </div>
                 <div>
                     <p className="about-text">
-                    Accept exists to provide  care and support for anyone in need. Whether in word or deed we do all things within our God given capacity, in the love of Lord Jesus Christ. Accept aims to glorify God by providing wholistic care and life transformation through various services  offered for the needy.
+                    HelpAge India is a secular, not-for-profit organization in India, registered under the Societies’ Registration Act of 1860. Set up in 1978, the organization works for ‘the cause and care of disadvantaged older persons to improve their quality of life’ HelpAge envisions a society where elderly have the right to an active, healthy and dignified life
                     
                     </p>
                 </div>
@@ -123,7 +123,7 @@ class DonationPage extends React.Component{
           <div className="col-sm-6 col-md-4 col-lg-4 ">
             <div className="donation-box js--wp-4">
                 <div>
-                    <img src="https://zeroproject.org/wp-content/uploads/2013/10/monitoring.jpg" />
+                    <img src="https://wheelchairnetwork.org/wp-content/uploads/2018/10/milogo-colour.jpg" />
                     <p className="plan-price">Mobility India</p>
                     <p className="plan-price-meal">Progressive force in the disability, development and rehabilitation sector.</p>
                     
