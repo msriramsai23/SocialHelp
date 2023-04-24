@@ -8,7 +8,7 @@ const Header = () =>{
       <div>
         <nav className="navbar">
           <div className="container">
-            <p className="logo" >BE THE CHANGE</p>
+            <p className="logo" >Social Help</p>
             <div className="menu">
                 <p>Upcoming Campaigns</p>
                 <p>DONATE</p>

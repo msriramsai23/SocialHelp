@@ -16,6 +16,8 @@ import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import AboutUs from "./AboutUs";
 import DonationPage from "./DonatePage";
+import UpcomingEvents from "./UpcomingEvents";
+import Joinus from "./Joinus";
 import './style.scss';
 
 
@@ -79,6 +81,14 @@ function App() {
     {
       path:"/donationpage",
       element:<DonationPage/>
+    },
+    {
+      path:"/upcomingevents",
+      element:<UpcomingEvents/>
+    },
+    {
+      path:"/joinus",
+      element:<Joinus/>
     },
   ]);
 

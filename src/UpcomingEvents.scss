@@ -1,0 +1,58 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import "grid/grid12";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0px; 
+	padding: 0px; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-fundraisers{
+  
+    .funraiser-events{
+      padding-top: 50px;
+      img{
+        background: no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+        margin: 20px 20px 20px 20px;
+      }
+      h3{
+        font-size:25px;
+        font-weight:bold;
+        letter-spacing:1px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        padding-bottom: 178px;
+      }
+    }
+  }
+
+  .section-headings{
+    text-align: center;
+    margin:3% 0 0 0;
+    font-family: 'Montserrat', sans-serif;    font-size:45px;
+    &:after{
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      padding-top: 15px;
+      border-bottom: 2px solid #F97F51;
+    }
+  }
+ 

@@ -30,8 +30,8 @@ const Navbar = () => {
                <EmailOutlinedIcon/>
                <NotificationsNoneOutlinedIcon/>
                <div className="user">
-                  <img src="https://media.istockphoto.com/id/1252924066/photo/poor-indian-children-asking-for-help.jpg?s=612x612&w=0&k=20&c=iCfnyEJBALdrB8D_EZ0CI1lDgDHMZ8yCbwua6eNyEQ8=" alt=""/>
-                  <span>blah blah</span>
+                  <img src="https://blog.ipleaders.in/wp-content/uploads/2021/11/Child-begging-1.jpg" alt=""/>
+                  <span>user</span>
                </div>
             </div>
         </div>

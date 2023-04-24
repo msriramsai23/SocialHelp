@@ -1,6 +1,8 @@
 import React from 'react';
 import './Donation.scss';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
+
 const formValid = ({formErrors, ...rest }) => {
   let valid =true;
   Object.values(formErrors).forEach(val => {
@@ -158,7 +160,9 @@ class DonationPage extends React.Component{
                 )}
               </div>
               <div className="createAccount">
-                <button type="submit">Submit</button>
+                <Link to="/">
+                <button >Submit</button>
+                </Link>
               </div>
             </form>
           </div>

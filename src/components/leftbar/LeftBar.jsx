@@ -14,6 +14,8 @@ import Courses from "../../assets/12.png"
 import Fund from "../../assets/13.png"
 import AboutUsIcon from "../../assets/about-us.png"
 import Donateicon from "../../assets/donate(1).png"
+import Calendar from "../../assets/calendar.png"
+import joinus from "../../assets/deal.png"
 import { Link } from 'react-router-dom';
 
 
@@ -28,16 +30,10 @@ const LeftBar = () => {
                 <div className="menu">
                     <div className="user">
                         <img src="https://blog.ipleaders.in/wp-content/uploads/2021/11/Child-begging-1.jpg" alt="" />
-                        <span>blah blah</span>
+                        <span>user</span>
                     </div>
                    
-                    <div className="item">
-                    <Link to="/aboutus">
-                        <img src={AboutUsIcon} alt="" />
-                    </Link>
-                        <span>AboutUs</span>
-                    </div>
-                   
+                    
                     <div className="item">
                     <Link to="/donationpage">
                         <img src={Donateicon} alt="" />
@@ -46,17 +42,26 @@ const LeftBar = () => {
                     </div>
                    
                     <div className="item">
-                        <img src={Market} alt="" />
-                        <span>Marketplace</span>
+                    <Link to="/upcomingevents">
+                        <img src={Calendar} alt="" />
+                    </Link>
+                        <span>Upcoming events</span>
                     </div>
+                   
                     <div className="item">
-                        <img src={Watch} alt="" />
-                        <span>Watch</span>
+                    <Link to="/joinus">
+                        <img src={joinus} alt="" />
+                    </Link>
+                        <span>Join Us</span>
                     </div>
+
                     <div className="item">
-                        <img src={Memories} alt="" />
-                        <span>Memories</span>
+                    <Link to="/aboutus">
+                        <img src={AboutUsIcon} alt="" />
+                    </Link>
+                        <span>AboutUs</span>
                     </div>
+                   
 
                 </div>
                 <hr />

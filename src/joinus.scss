@@ -1,0 +1,91 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    margin: 0px; 
+      padding: 0px; 
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .section-headings{
+    text-align: center;
+    margin:3% 0 0 0;
+    font-family: 'Montserrat', sans-serif;    font-size:45px;
+    &:after{
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      padding-top: 15px;
+      border-bottom: 2px solid #F97F51;
+    }
+  }
+
+  .icons-logo{
+    
+    img{
+      display:block;
+      margin:1% auto;
+      width: 700px;
+      height: 500px;
+    }
+    h1{
+      font-size:25px;
+      color:#F97F51;
+      font-weight:bold;
+      letter-spacing:1px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing:1px;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+
+  .hero-img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://images.unsplash.com/photo-1542315099045-93937d70c67a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0;
+    box-sizing:border-box;
+  
+    h1{
+      color: #F97F51;
+      font-size:60px;
+      font-family: 'Montserrat', sans-serif;
+      padding:0 7%;
+      line-height:60px;
+      font-weight:700;
+      text-shadow:rgba(0, 0, 0, 0.75) 1px 1px 2px;
+      visibility:inherit;
+    }
+  
+    p{
+      font-size:24px;
+      padding:0 7%;
+      font-weight: 100;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.5;
+      color:rgb(255, 255, 255);
+      text-shadow:rgba(0, 0, 0, 0.75) 1px 1px 2px;
+      visibility:inherit;
+    }
+  }
+  
