@@ -1,9 +1,10 @@
-
+import { useContext } from "react";
 import "./stories.scss"
-
+import { AuthContext } from "../../context/authContext"
 
 const Stories = () => {
 
+  const {currentUser} = useContext(AuthContext)
 
   //TEMPORARY
   const stories = [
@@ -31,9 +32,9 @@ const Stories = () => {
 
   return (
     <div className="stories">
-        <div className="story" >
-          <img src={"https://imgs.search.brave.com/rWjnOnVpMb4XbckDrhR8M1TPfXY0U1oLGeHn9fQmDF8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvNDQz/NDQ2L3BleGVscy1w/aG90by00NDM0NDYu/anBlZz9jcz1zcmdi/JmRsPWRheWxpZ2h0/LWZvcmVzdC1nbG9z/c3ktNDQzNDQ2Lmpw/ZyZmbT1qcGc"} alt="" />
-          <span>{"hi"}</span>
+      <div className="story">
+          <img src={currentUser.profilePic} alt="" />
+          <span>{currentUser.name}</span>
           <button>+</button>
         </div>
       {stories.map(story=>(

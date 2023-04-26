@@ -25,7 +25,7 @@ const Joinus = () =>{
       
       </div>
       </div>
-      <p>            </p>
+     
       <div className="col-sm-6 col-md-3 col-lg-4">
         <div>
         <img src="https://indiaeducationdiary.in/wp-content/uploads/2017/11/Akansha-and-Teach-for-India-NGO-kids-at-Krazy-Kids-Karnival.jpg"/>

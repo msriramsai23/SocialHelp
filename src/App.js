@@ -10,8 +10,8 @@ import {
 } from "react-router-dom";
 import { Children } from "react";
 import Navbar from "./components/navbar/Navbar";
-import LeftBar from "./components/leftbar/LeftBar"
-import RightBar from "./components/rightbar/RIghtBar";
+import LeftBar from "./components/leftBar/LeftBar";
+import RightBar from "./components/rightBar/RightBar";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import AboutUs from "./AboutUs";
@@ -19,33 +19,38 @@ import DonationPage from "./DonatePage";
 import UpcomingEvents from "./UpcomingEvents";
 import Joinus from "./Joinus";
 import './style.scss';
+import { useContext } from "react";
+import { DarkModeContext } from "./context/darkModeContext";
+import { AuthContext } from "./context/authContext";
 
 
 function App() {
-  const currentUser=true;
+  const {currentUser} = useContext(AuthContext);
 
-  const Layout =()=>{
+  const { darkMode } = useContext(DarkModeContext);
+
+  const Layout = () => {
     return (
-      <div className="theme-light">
+      <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <Navbar />
-        <div style={{display:"flex"}}>
+        <div style={{ display: "flex" }}>
           <LeftBar />
-          <div style={{flex:6}}>
-          <Outlet />
-          </div>   
-        <RightBar/>
+          <div style={{ flex: 6 }}>
+            <Outlet />
+          </div>
+          <RightBar />
         </div>
-
       </div>
-    )
-  }
+    );
+  };
 
-  const ProtectedRoute= ({children}) =>{
-    if(!currentUser){
-      return <Navigate to="/login"/>
+  const ProtectedRoute = ({ children }) => {
+    if (!currentUser) {
+      return <Navigate to="/login" />;
     }
-    return children
-  }
+
+    return children;
+  };
 
   const router = createBrowserRouter([
     {
@@ -94,7 +99,7 @@ function App() {
 
   return (
     <div>
-       <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </div>
   );
 }
